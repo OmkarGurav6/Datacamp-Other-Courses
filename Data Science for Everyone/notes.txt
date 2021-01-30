@@ -1,0 +1,90 @@
+
+Things to consider when storing data : location , type of data, retrieval
+
+Data pipeline : Moves data into defined stages.
+                Automated collection and storage - scheduled hourly,daily,weekly etc
+                                                    triggered by event
+                Monitored with generated alerts
+                Necessary for big data projects
+                Data engineers work to customize solutions depending on data,storage options and
+                ultimate usage of the data
+                
+                ETL(Extract Transform Load) is popular framework for data pipelines.
+
+                Transform : Joining data sources into 1 dataset
+                            Converting data structures to fit database schemas 
+                            Removing irrelevant data
+
+                            Data preparation and exploration don't occur at this stage(Transform stage)
+                          
+                            Most popular tool to do this automation is Airflow. 
+
+
+EDA(Exploratory Data Analysis) : Exploring the data
+                                 Formulating hypotheses
+                                 Assessing characteristics
+                                 Visualizing 
+
+Experiment in data science : 1. Form a question
+                             2. Form a hypothesis
+                             3. Collect data
+                             4. Test the hypothesis with a statistical test
+                             5. Interpret results
+
+A/B Testing (Champion/Challenger Testing) : It's used to make a choice between 2 options
+
+Statistical significance : result is likely not due to chance 
+                            1. Given assumptions of statistical model.
+                            2. Use statistical tests to calculate this.
+
+A/B Testing Steps : 1. Picking a metric to track
+                    2. Calculating sample size
+                    3. Running the experiment
+                    4. Checking for significance
+
+Large sample sizes allow us to detect smaller changes.
+Low sensitivity detects large differences.
+
+Predictive modelling ranges in complexity from a linear equation to a deep learning algorithm.
+
+Time series data : series of data points sequenced in time. 
+
+Machine learning : Predictions from data
+
+1) Supervised machine learning : Predictions from data with labels and features
+
+   label : what we want to predict
+
+   features : data that might predict the label
+
+   split historical data into training and testing sets.
+
+   testing data is used to evalute the model.
+
+2) Clustering : divides unlabeled dataset into different categories
+                 
+                unsupervised machine learning
+
+                uses only feature
+
+                steps: select features
+                       select number of clusters
+                       use clusters to solve problems                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
