@@ -71,20 +71,3 @@ Machine learning : Predictions from data
                        select number of clusters
                        use clusters to solve problems                                
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
